@@ -1,0 +1,70 @@
+.post--container{
+    margin-top: 10px;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post--level--top{
+    padding: 10px 0px;
+    margin: 0 auto;
+    width: 97%;
+    border-bottom: 1px solid var(--facebook--color2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+.post--input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    flex: 0.9;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--facebook--color2);
+    text-indent: 12px;
+    font-size: 18px;
+}
+.post--input:hover{
+    background-color: rgba(173, 171, 171, 0.295);
+}
+.post--level--bottom{
+    height: 45%;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.post--kind{
+    padding: 0px 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: var(--facebook--font);
+    height: 40px;
+}
+.post--kind:hover{
+    border-radius: 10px;
+    background-color: var(--facebook--color4);
+}
+.post--kind > p{
+    margin-left: 5px;
+}
+.live--video{
+    color: #f3425f !important;
+    font-size: 35px;
+
+}
+.photo--video{
+    color: #45bd62 !important;
+    font-size: 35px;
+}
+.feeling--activity{
+    color: #f7b928 !important;
+    font-size: 35px;
+}

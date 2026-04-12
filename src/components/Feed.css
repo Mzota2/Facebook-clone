@@ -1,0 +1,51 @@
+.feed--container{   
+    height: 79vh;
+    overflow-y: scroll;
+    flex: 0.4;
+   
+    
+}
+
+
+
+@media (max-width:1300px) {
+    .feed--container{
+        flex: 0.4;
+    }
+    
+}
+@media (max-width:1100px) {
+    .feed--container{
+        margin: 0 auto;
+        flex: 0.57;
+    }
+    
+}
+@media (max-width:900px) {
+    .feed--container{
+        margin: 0 auto;
+        flex: 0.6;
+    }
+    
+}
+@media (max-width:700px) {
+    .feed--container{
+        margin: 0 auto;
+        flex: 0.8;
+    }
+    
+}
+@media (max-width:500px) {
+    .feed--container{
+        margin: 0 auto;
+        flex: 0.9;
+    }
+    
+}
+@media (max-width:400px) {
+    .feed--container{
+        margin: 0 auto;
+        flex: 0.97;
+    }
+    
+}

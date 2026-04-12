@@ -1,0 +1,160 @@
+.friends--component--container{
+    height: 60%;
+    width: 100%;
+}
+.friends--top--level{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--facebook--font);
+    border-bottom: 1px solid #ced0d4;
+}
+.friends--mid--level{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ced0d4;
+}
+.friends--mid--icons--container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--facebook--font);
+    color: var(--facebook--color3) !important;
+}
+.friend--contact--icon--container{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.friend--contact--icon--container:hover{
+    background-color: var(--facebook--color6) ;
+}
+.friend--contact--icon{
+    cursor: pointer !important;
+}
+.friends--mid--list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.friends--detail--container{
+    padding-left: 2px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-family: var(--facebook--font);
+
+}
+.friends--detail--container:hover{
+    border-radius: 10px;
+    background-color: #e4e6eb ;
+    cursor: pointer;
+}
+.friends--name{
+    margin-left: 8px;
+}
+.friend--avatar{
+    width: 30px !important;
+    height: 30px !important;
+}
+.friends--bottom--level{
+    padding: 10px 0px;
+    font-family: var(--facebook--font);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+ 
+}
+.friends--group--container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.group--detail--container{
+    padding-left: 2px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-family: var(--facebook--font);
+}
+
+.group--detail--container:hover{
+    border-radius: 10px;
+    background-color: #e4e6eb ;
+    cursor: pointer;
+}
+.group--header--text{
+    font-size: 15px;
+    color: var(--facebook--color3);
+}
+.group--name{
+    margin-left: 8px;
+}
+.friends--contact--text, .friends--sponsored--text{
+    color: #67696d;
+    font-weight: 300;
+    font-size: 18px;
+}
+.friends--btn--send--container{
+    cursor: pointer;
+    top: 88%;
+    right: 3%;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(108, 104, 104, 0.621);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.friends--btn--send--container:hover{
+    background-color: var(--facebook--color2);
+}
+.create--group--container{
+    margin-top: 8px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.create--group--container:hover{
+    background-color: var(--facebook--color6);
+}
+.create--group--btn{
+    margin-left: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbd6d6;
+    cursor: pointer;
+}
+
+.create--group--text{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: var(--facebook--font);
+}

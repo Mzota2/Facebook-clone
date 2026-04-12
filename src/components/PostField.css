@@ -1,0 +1,152 @@
+.post--field--container{
+    top: 15%;
+    z-index: 3;
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    border: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(127, 126, 126);
+}
+.create--post--container{
+    width: 100%;
+    margin: 0 auto;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--facebook--font);
+    border-bottom: 2px solid var(--facebook--color2);
+}
+.create--post--text{
+    justify-self: center;
+    text-align: center;
+}
+.post--field--btn--close--container{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--facebook--color2);
+    margin-right: 10px;
+}
+.post--field--btn--close--container:hover{
+    background-color: var(--facebook--color6);
+}
+.post--field--profile--container{
+    width: 97%;
+    margin: 0 auto;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.select--who--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select--friends{
+    width: 147px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--facebook--color2);
+}
+.text--area--container{
+    height: 40%;
+    width: 100%;
+}
+.post--field--text--area{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family: var(--facebook--font);
+    font-size: 20px;
+    text-align: center;
+}
+.add--post--text{
+    font-weight: 300;
+}
+.add--post--btn--container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+    margin: 0 auto;
+    border: 2px solid var(--facebook--color2);
+    border-radius: 10px;
+    justify-content: space-around;
+    font-family: var(--facebook--font);
+    cursor: pointer;
+}
+.post--field--icon--container2{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+}
+.post--field--icon{
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.post--field--icon:hover{
+    background-color: var(--facebook--color2);
+}
+.post--field--photo{
+    color: #45bd62 !important;
+}
+.post--field--people{
+    color: #1877f2 !important;
+}
+.post--field--mood{
+    color: #f7ba2a !important;
+
+}
+.post--field--menu{
+    color: var(--facebook--color3) !important;
+}
+.post--field--post--button{
+    text-transform: none !important;
+    margin: auto !important;
+    height: 30px !important;
+    width: 90% !important;
+    background-color: var(--facebook--color2) !important;
+    color: var(--facebook--color3) !important;
+}
+
+@media (max-width:700px) {
+    .post--field--container{
+        width: 85%;
+        height: 80%;
+    }
+    
+}
+@media (max-width:900px) {
+    .post--field--container{
+        width: 75%;
+        height: 80%;
+    }
+    
+}
+@media (max-width:1300px) {
+    .post--field--container{
+        width: 50%;
+        height: 80%;
+  }
+    
+}

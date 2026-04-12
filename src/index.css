@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --facebook--color1:#00B2FF;
+  --facebook--color2:#f0f2f5;
+  --facebook--color3:#65676b;
+  --facebook--color4:#f0f2f5;
+  --facebook--color5:#1b74e4 ;
+  --facebook--color6:#e4e6eb;
+  --facebook--font:Arial;
+}

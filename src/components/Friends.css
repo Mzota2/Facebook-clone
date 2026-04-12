@@ -1,0 +1,135 @@
+.friends--container{
+    position: relative;
+    flex: 0.22;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 85vh;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+.fr--container{
+    width: 100%;
+    border-bottom: 1px solid #ced0d4;
+    height: 50%;
+}
+.friends--notification--container{
+    padding: 10px 0px;
+    margin-top: 10px !important;
+    font-family: var(--facebook--font);
+    width: 97%;
+    height: 90% !important;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notification--icon--container{
+    margin: auto;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.notification--icon--container > .notification--left{
+    margin-top: 10px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+   
+}
+.friend--request--text{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: var(--facebook--font);
+
+}
+.notification--friend--request--container{
+    padding: 5px 20px;
+    height: fit-content;
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+.notification--friend--request--container:hover{
+
+    background-color: var(--facebook--color4);
+}
+.notification--friend--details{
+    display: flex;
+    flex-direction: column;
+    
+}
+.notification--btn--confirm{
+    margin-top: 10px !important;
+    text-transform: none !important;
+    width: 100px !important;
+    background-color: #1b74e4 !important;
+    color: white !important;
+}
+.notification--btn--delete{
+    margin-top: 10px !important;
+    text-transform: none !important;
+    width: 100px !important;
+    background-color: #e4e6eb !important;
+    color: black!important;
+
+}
+.notification--avatar{
+    height: 60px !important;
+    width: 60px !important;
+}
+.notification--icon--people{
+    color: var(--facebook--color1);
+}
+.notification--icon--listall{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.notification--icon--listall:hover{
+    background-color: var(--facebook--color6);
+}
+
+
+
+@media (max-width:700px) {
+    .friends--container{
+        display: none;
+    }
+    
+}
+@media (max-width:900px) {
+    .friends--container{
+        display: none;
+    }
+    
+}
+@media (max-width:1100px) {
+
+    .friends--container{
+        flex: 0.29;
+    }
+    
+}
+@media (max-width:1300px) {
+    .friends--container{
+        flex: 0.23;
+    }
+    
+}
